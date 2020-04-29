@@ -1,0 +1,340 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  /*font-family: "Avenir Next";*/
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.clear-float {
+  clear: both;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  margin-top: 5px;
+  padding: 0 15px;
+  background-color: rgba(41,41,41,0.7);
+  border: 1px solid white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-list {
+  padding: 20px 0;
+  display: flex;
+}
+
+.header-list li {
+  margin-left: 40px;
+}
+
+.header-list li a {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.top-wrapper {
+  padding: 50px 0 200px 0;
+  background-image: url("../img/ojek.jpeg");
+  background-size: cover;
+  opacity: 0.8;
+  min-height: 500px;
+}
+
+.heading {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+.heading h1 {  
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+  line-height: 50px;
+  color: rgba(0,0,0,0.9);
+}
+
+
+.main {
+  background-color: #fc0;
+  padding: 15px 0;
+}
+
+.message h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.message p {
+  text-align: justify;
+}
+
+.services {
+  padding-top: 40px;
+  display: flex;
+  text-align: center;
+}
+
+.service {
+  width: 25%;
+}
+
+.service-icon {
+  background-color: #333;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;  
+  display: inline-flex;
+}
+
+.service .fas {
+  font-size: 100px;
+  color: #fff;
+  line-height: 100px;
+  position: relative;
+  width: 100%;
+  top: 50px;
+}
+
+.txt-contents {
+  margin-top: 5px;
+}
+
+.txt-contents h3 {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 5px;
+  /*font-weight: bold;*/
+}
+
+.txt-contents p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.extra {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.extra-left, .extra-right {
+  background-color: #333;
+  padding: 5px 30px 20px;
+  border-radius: 20px;
+}
+
+.extra-left {
+  margin-right: 60px;
+  width: 40%;
+}
+
+.extra-right {
+  width: 60%;
+}
+
+.title-extra {
+  color: #fc0;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.expl-extra {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+/*apps*/
+.extra2-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.apps {
+  width: 45%;
+
+}
+
+.coming-soon {
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}  
+
+.apps-icon {
+  display: flex;
+  color: #fff;
+}
+
+.app-icon {
+  display: flex;
+  background-color: #333;
+  padding: 15px 25px 10px;
+  width: 46%;
+  border-radius: 5px;
+}
+
+.app-icon:first-child {
+  margin-right: 30px;
+}
+
+.app-icon .fab {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.medsos {
+  display: flex;
+  width: 54%;
+  padding: 70px 0 10px;
+  margin-left: 100px;
+}
+
+.medsos h2 {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.medsos-list {
+  display: flex;
+  font-size: 24px;
+  margin-top: 7px;
+}
+
+.medsos-list .fab {
+  margin-right: 3px;
+}
+
+.medsos-list li {
+  margin-right: 35px;
+}
+
+.medsos-list a {
+  color: rgba(21,21,21,0.5);
+  transition: all 0.5s;
+}
+
+.medsos-list a:hover {
+  color: rgba(21,21,21,1.0);
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  border-top: 4px dashed #fc0;
+  margin-top: -5px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left h2 {
+  margin-top: -5px;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.footer-right {
+  float: right;
+  padding-top: 5px;
+}
+
+.footer-right p:first-child {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.footer-right .fas {
+  font-size: 20px;
+  top: 3px;
+  display: inline;
+  margin-right: 3px;
+}
+
+.footer-right a {
+  color: #fff;
+}
+
+
+/*profil*/
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+.profil-item img {
+  box-shadow: 4px 3px #333;
+}
+.profil-item {
+  float: left;
+  margin-right: 71px;
+}
+.profil-item p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.profil-item h4 {
+ font-size: 23px;
+ margin-top: 5px;
+}
+.profil-tim {
+  /*height: 500px;*/
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #dee7ec;
+}
